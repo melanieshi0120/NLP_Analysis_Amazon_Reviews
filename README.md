@@ -20,6 +20,7 @@ Using Amazon data to predict if the review is negative or positive
 5. After step 4.  created a column - review_len which is length of review(text)
 6. Data Resampling (Oversampling Method)
 ## Modeling
+[!][overall_process.png](overall_process.png)
 
 
 
