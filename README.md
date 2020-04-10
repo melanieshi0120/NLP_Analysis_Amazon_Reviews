@@ -19,7 +19,9 @@ Using Amazon data to predict if the review is negative or positive
 4. Tokenization, Punctuation removal , stemming, lemmatization 
 5. After step 4.  created a column - review_len which is length of review(text)
 6. Data Resampling (Oversampling Method)
+
 ## Modeling
+There are two part at first level, text data analysis and non_text data analysis. For text data , Naive Bayes Classifier, Neural Network and Logistic Regression were applies and obtianed each model's preditions (train data and test data ). For the non_text data, Ramdon Forest , Neural Network and Logistic Regression were applied and generated the predictions. At second level, All six train-data preditions  and six test-data prediction were combined as new features renamed as  new x_train data and new x_text data. XGboost and Neural Network were applied to predict again. 
 ![overall_process.png](overall_process.png)
 
 
