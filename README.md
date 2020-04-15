@@ -1,5 +1,5 @@
 # NLP_Analysis_Amazon_Reviews
-[!][ceo.jpeg](ceo.jpeg)
+![ceo.jpeg](ceo.jpeg)
 ## Goal: 
 Using Amazon data to predict if the review is negative or positive
 - If rating <=3  negative review  0
@@ -13,7 +13,7 @@ Using Amazon data to predict if the review is negative or positive
 4. summary - summary of the review
 5. unix Review Time - time of the review (unix time)
 ## EDA
-[!][bigram.png](bigram.png)
+![bigram.png](bigram.png)
 
 ## Data cleaning and preprocessing
 1. Combined summary column and review column as “combined_text”
