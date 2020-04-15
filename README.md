@@ -17,10 +17,12 @@ Using Amazon data to predict if the review is negative or positive
 - Review counts graph shows that  the numbers of positive reviews and negative reviews are not balanced, therefore oversampling method was applied.
 - On the other hand we can see the mean of length of negative reviews is long than positive reviews. That makes sense, because when a person complains about a product that she/he does like , the person will talk a lot.
 - In 2013 Amazon sells over 200 million products in the USA, which are categorised into 35 departments and almost 20 million in Sports & Outdoors 
+
 ![bigram.png](bigram.png)
 ![review counts.png](review counts.png)
 ![length_mean_in_good:bad_reviews.png](length_mean_in_good:bad_reviews.png)
 ![review counts changes by time .png](review counts changes by time .png)
+
 ## Data cleaning and preprocessing
 1. Combined summary column and review column as “combined_text”
 2. Created a target column based on rating column 
