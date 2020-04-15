@@ -1,4 +1,5 @@
 # NLP_Analysis_Amazon_Reviews
+[!][ceo.jpeg](ceo.jpeg)
 ## Goal: 
 Using Amazon data to predict if the review is negative or positive
 - If rating <=3  negative review  0
@@ -11,6 +12,8 @@ Using Amazon data to predict if the review is negative or positive
 3. overall - rating of the product
 4. summary - summary of the review
 5. unix Review Time - time of the review (unix time)
+## EDA
+[!][bigram.png](bigram.png)
 
 ## Data cleaning and preprocessing
 1. Combined summary column and review column as “combined_text”
@@ -32,3 +35,4 @@ There are two part at first level, text data analysis and non_text data analysis
 
 
 ## Presentation:https://docs.google.com/presentation/d/1pjb43sTBqI7z4jKIwuu9FlcUvjYyJvtK07uPGz71drQ/edit?usp=sharing
+## Dashboard:https://public.tableau.com/profile/hua.shi#!/vizhome/NLPAnalysiswithAmazonSportsOutdoorReviewData/Dashboard1?publish=yes
