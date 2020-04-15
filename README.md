@@ -21,7 +21,7 @@ Using Amazon data to predict if the review is negative or positive
 ![review_counts.png](review_counts.png)
 #### Review Length
 - On the other hand we can see the mean of length of negative reviews is long than positive reviews. That makes sense, because when a person complains about a product that she/he does like , the person will talk a lot.
-![length_mean_in_good:bad_reviews.png](length_mean_in_good:bad_reviews.png)
+![mean_of_length_bad_good_review.png](mean_of_length_bad_good_review.png)
 #### Review Counts by Time
 - In 2013 Amazon sells over 200 million products in the USA, which are categorised into 35 departments and almost 20 million in Sports & Outdoors 
 ![review_counts_changes_by_time .png](review_counts_changes_by_time .png)
