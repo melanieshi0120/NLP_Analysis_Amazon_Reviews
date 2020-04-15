@@ -24,7 +24,7 @@ Using Amazon data to predict if the review is negative or positive
 ![mean_of_length_bad_good_review.png](mean_of_length_bad_good_review.png)
 #### Review Counts by Time
 - In 2013 Amazon sells over 200 million products in the USA, which are categorised into 35 departments and almost 20 million in Sports & Outdoors 
-![review_counts_changes_by_time .png](review_counts_changes_by_time .png)
+![review_counts_changes_by_time.png](review_counts_changes_by_time.png)
 
 
 
