@@ -1,4 +1,4 @@
-# NLP_Analysis_Amazon_Reviews
+# NLP Analysis with Amazon Reviews Data
 ![ceo.jpeg](ceo.jpeg)
 ## Goal: 
 ### Binary Classification
@@ -6,8 +6,8 @@ Using Amazon data to predict if the review is negative or positive
 - If rating <=3  negative review  0
 - If rating >=4  positive review  1
 ### Multi-calss classification
-this part is based on the users' review to predict the rating scores and the label(target) in this part is the rating score from 1 to 5.
-
+This part is to use the users' review to predict the rating scores and the label(target) in this part is the rating score from 1 to 5.
+This is multi-class classification
 ## Attribute information
 1.  helpful - helpfulness rating of the review [2,3], e.g. 2/3 ,  2 is numerator , 3 id denominator
             Numerator: Number of readers who found the review is  helpful
@@ -38,19 +38,11 @@ this part is based on the users' review to predict the rating scores and the lab
 6. Data Resampling (Oversampling Method)
 
 ## Modeling- Binary Classification
-There are two parts at first level, text data analysis and non_text data analysis. For text data , Naive Bayes Classifier, Neural Network and Logistic Regression were applies and obtained each model's predictions (train data and test data ). For the non_text data, Random Forest , Neural Network and Logistic Regression were applied and generated the predictions. At second level, All six train-data predictions  and six test-data prediction were combined as new features renamed as  new x_train data and new x_text data. XGboost and Neural Network were applied to predict again. Eventhough model stacking may deliver better result, it is hard and difficult to interpret the result.
+There are two parts at first level, text data analysis and non_text data analysis. For text data , Naive Bayes Classifier, Neural Network and Logistic Regression were applies and obtained each model's predictions (train data and test data ). For the non_text data, Random Forest , Neural Network and Logistic Regression were applied and generated the predictions. At second level, All six train-data predictions  and six test-data prediction were combined as new features renamed as  new x_train data and new x_text data. XGboost and Neural Network were applied to predict again. The result shows that model stacking gives slightly higher f1 score from 0.9059 to 0.9063. Eventhough model stacking may deliver better result, it is difficult to interpret the result.
 ![overall_process.png](overall_process.png)
 
 ## Modeling- Multi-class Classification
-Based on Modeling- Binary Classification part, Neural Network was applied for  Multi-class Classification. 
-
-## Result 
-`F1 score: 0.914`
-The result is exactly the same as Neural Network model at First Level PartI 
-That mean Text data is good enough to predict our target and the Neural Network model performs the best for the text data.
-![prediction_vs_actual_values.png](prediction_vs_actual_values.png)
-
-
+Similary, this part contians two parts, in the first modeling part, Naive Bayes Classifier, Neural Network and Random Forest were applied and second part is included model stacking with XGboost model. In the first part, the F1 scores of Naive Bayes Classifier, Neural Network and Random Forest are 0.6067, 0.6197, 0.618 respectively before model stacking. Finally, after model stacking the result is 0.628 which is higher than 0.6197.
 
 ## Presentation:https://docs.google.com/presentation/d/1pjb43sTBqI7z4jKIwuu9FlcUvjYyJvtK07uPGz71drQ/edit?usp=sharing
 ## Dashboard:https://public.tableau.com/profile/hua.shi#!/vizhome/NLPAnalysiswithAmazonSportsOutdoorReviewData/Dashboard1?publish=yes
