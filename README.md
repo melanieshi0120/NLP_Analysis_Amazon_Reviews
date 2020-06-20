@@ -44,7 +44,7 @@ There are two parts at first level, text data analysis and non_text data analysi
 ![overall_process.png](overall_process.png)
 
 ## Modeling- Multi-class Classification
-Similary, this part contians two parts, in the first modeling part, Naive Bayes Classifier, Neural Network and Random Forest were applied and second part is included model stacking with XGboost model. In the first part, the F1 scores of Naive Bayes Classifier, Neural Network and Random Forest are 0.6067, 0.6197, 0.618 respectively before model stacking. Finally, after model stacking the result is 0.628 which is higher than 0.6197.
-![multi_class.png](multi_class.png)
+Similary, this part contians two parts, in the first modeling part, Naive Bayes Classifier, Neural Network and Random Forest were applied and second part is included model stacking with XGboost model and Neural Network. In the first part, the F1 scores of Naive Bayes Classifier, Neural Network and Random Forest are 0.6067, 0.6085, 0.6186 respectively. Obviously Random Forest perfomed best with f1 score 0.6186. In second part, after model stacking the f1 scores of XGboost and Neural Network are 0.5893 and 0.6189. After model stacking we can see that f1 score slightly increased 0.0003. 
+![multi_class.png](multi_class_process.png)
 ## Presentation:https://docs.google.com/presentation/d/1pjb43sTBqI7z4jKIwuu9FlcUvjYyJvtK07uPGz71drQ/edit?usp=sharing
 ## Dashboard:https://public.tableau.com/profile/hua.shi#!/vizhome/NLPAnalysiswithAmazonSportsOutdoorReviewData/Dashboard1?publish=yes
